@@ -70,6 +70,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'travel_app.wsgi.application'
 
+REST_FRAMEWORK = {
+    'EXCEPTION_HANDLER': 'destinations.utils.custom_exception_handler'
+}
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases

@@ -10,11 +10,6 @@ class DestinationSerializer(serializers.ModelSerializer):
         model = Destination
         fields = "__all__"
     
-    def validate_name(self, value):
-        """ Validate the name field."""
-        if not value.isalpha() :
-            raise serializers.ValidationError("Name must contain only alphabetical characters.")
-        return value
     
     def validate_city(self, value):
         """ Validate the city field."""
