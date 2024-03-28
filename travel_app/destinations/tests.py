@@ -1,8 +1,10 @@
 from django.test import TestCase
 from .serializers import DestinationSerializer
 
-class ProductSerializerTestCase(TestCase):
+class DestinationSerializerTestCase(TestCase):
     def test_destination_data(self):
+        ''' Test for valid data passed to the destination serializer '''
+
         obj =  {
                 "name": "ganpatipule",
                 "country": "India",
@@ -15,6 +17,8 @@ class ProductSerializerTestCase(TestCase):
         self.assertTrue(serializer.is_valid())
 
     def test_invalid_serialize_data(self):
+        ''' Test for invalid data passed to the destination serializer '''
+
         obj =  {
                 "name": "ganpatipule",
                 "country": "India123",
