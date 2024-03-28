@@ -52,6 +52,8 @@ class UserAPITestCase(TestCase):
                                     email='as3@gmail.com')
 
     def test_create_user(self):
+        ''' Api Testcase for testing user creation '''
+        
         url = '/user/create/'
         data = {'username': 'ashish9', 'password': 'password', 'email':"as3@gmail.com",
                 'confirm_password':'password'}
