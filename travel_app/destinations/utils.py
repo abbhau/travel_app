@@ -20,4 +20,12 @@ def custom_exception_handler(exc, context):
             response.data = {'detail':'record not found'}
             return response
         
+        if response.status_code == 401:
+            response.data = {'detail':'Unauthorized Access'}
+            return response
+        
+        if response.status_code == 400:
+            response.data = {'detail':'Invalid data'}
+            return response
+        
     return response
