@@ -11,8 +11,8 @@ class DestinationSerializer(serializers.ModelSerializer):
         fields = "__all__"
     
     
-    def validate_city(self, value):
-        """ Validate the city field."""
+    def validate_country(self, value):
+        """ Validate the country field."""
         if not value.isalpha():
             raise serializers.ValidationError("City must contain only alphabetical characters.")
         return value
