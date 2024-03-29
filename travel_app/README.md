@@ -13,7 +13,7 @@ How to Install and Run the Project:
 3) change directory by using command : cd travel_app
 
 
-4) install all the deprndincies required to the project
+4) install all the dependencies required to the project
     pip install -r requirements.txt
 
 5) run the migrate command to create an sqlite database
