@@ -23,7 +23,7 @@ To run the unit and Api test run command
     python manage.py test
 
 To check postman Api collection
-   Download the travel_app.postman_collection json file from destinations app and export it in postman app
+   Open  travel_app.postman_collection.json file from destinations app and export it in postman app
 
     
 
