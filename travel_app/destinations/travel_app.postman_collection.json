@@ -1,0 +1,1102 @@
+{
+	"info": {
+		"_postman_id": "14f297b7-a676-4952-818f-be622948be23",
+		"name": "travel_app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30728782",
+		"_collection_link": "https://speeding-desert-766699.postman.co/workspace/3eb821ef-d165-4561-b0a0-98e112e4d892/collection/30728782-14f297b7-a676-4952-818f-be622948be23?action=share&source=collection_link&creator=30728782"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/tokens/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"ashish1\",\r\n    \"password\":\"ganesh123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/tokens/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"tokens",
+						""
+					]
+				},
+				"description": "Gives token for authentication purpose as a response"
+			},
+			"response": [
+				{
+					"name": "http://127.0.0.1:8000/tokens/",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"ashish1\",\r\n    \"password\":\"ganesh123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/tokens/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"tokens",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://127.0.0.1:8000/tokens/",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"ashish1\",\r\n    \"password\":\"ganesh123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/tokens/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"tokens",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 29 Mar 2024 03:14:22 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.4"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "52"
+						},
+						{
+							"key": "Vary",
+							"value": "Cookie"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"795723abd93b95cbd19982d74c2616a0844735a4\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://127.0.0.1:8000/user/create/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n                \"username\": \"ashish4\",\r\n                \"password\": \"ganesh123\",\r\n                \"confirm_password\": \"ganesh123\",\r\n                \"email\": \"as3@gmail.com\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/user/create/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"create",
+						""
+					]
+				},
+				"description": "Create a user in User table"
+			},
+			"response": [
+				{
+					"name": "http://127.0.0.1:8000/user/create/",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n                \"username\": \"ashish4\",\r\n                \"password\": \"ganesh123\",\r\n                \"confirm_password\": \"ganesh123\",\r\n                \"email\": \"as3@gmail.com\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/user/create/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"user",
+								"create",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://127.0.0.1:8000/user/create/",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n                \"username\": \"ashish9\",\r\n                \"password\": \"ganesh123\",\r\n                \"confirm_password\": \"ganesh123\",\r\n                \"email\": \"as3@gmail.com\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/user/create/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"user",
+								"create",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 29 Mar 2024 03:13:31 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.4"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "53"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 6,\n    \"username\": \"ashish9\",\n    \"email\": \"as3@gmail.com\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/destinations/create/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n                \"name\": \"ganpatipule\",\r\n                \"country\": \"India\",\r\n                \"description\": \"famous ganapati temple\",\r\n                \"best_time_to_visit\": \"at morning time.\",\r\n                \"category\": \"Beach\",\r\n                \"image_url\": \"https://example.com/image.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/destinations/create/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"destinations",
+						"create",
+						""
+					]
+				},
+				"description": "create destination record"
+			},
+			"response": [
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/create/",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n                \"name\": \"ganpatipule\",\r\n                \"country\": \"India\",\r\n                \"description\": \"famous ganapati temple\",\r\n                \"best_time_to_visit\": \"at morning time.\",\r\n                \"category\": \"Beach\",\r\n                \"image_url\": \"https://example.com/image.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/create/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								"create",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/create/",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n                \"name\": \"ganpatipule\",\r\n                \"country\": \"India\",\r\n                \"description\": \"famous ganapati temple\",\r\n                \"best_time_to_visit\": \"at morning time.\",\r\n                \"category\": \"Beach\",\r\n                \"image_url\": \"https://example.com/image.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/create/?Authorization =Token 795723abd93b95cbd19982d74c2616a0844735a4",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								"create",
+								""
+							],
+							"query": [
+								{
+									"key": "Authorization ",
+									"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 29 Mar 2024 03:15:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.4"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "275"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 9,\n    \"name\": \"ganpatipule\",\n    \"country\": \"India\",\n    \"description\": \"famous ganapati temple\",\n    \"best_time_to_visit\": \"at morning time.\",\n    \"category\": \"Beach\",\n    \"image_url\": \"https://example.com/image.jpg\",\n    \"created_at\": \"2024-03-29T03:15:45.962082Z\",\n    \"updated_at\": \"2024-03-29T03:15:45.962082Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/destinations/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/destinations/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"destinations",
+						""
+					]
+				},
+				"description": "fetching all destination record"
+			},
+			"response": [
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/?Authorization=Token 795723abd93b95cbd19982d74c2616a0844735a4",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								""
+							],
+							"query": [
+								{
+									"key": "Authorization",
+									"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 29 Mar 2024 03:17:13 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.4"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1621"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 3,\n        \"name\": \"ganpatipule\",\n        \"country\": \"India\",\n        \"description\": \"famous temple\",\n        \"best_time_to_visit\": \"at morning time.\",\n        \"category\": \"Beach\",\n        \"image_url\": \"https://example.com/image.jpg\",\n        \"created_at\": \"2024-03-28T16:54:37.491007Z\",\n        \"updated_at\": \"2024-03-28T16:54:37.491007Z\"\n    },\n    {\n        \"id\": 4,\n        \"name\": \"ganpatipule\",\n        \"country\": \"India\",\n        \"description\": \"famous temple\",\n        \"best_time_to_visit\": \"at morning time.\",\n        \"category\": \"Beach\",\n        \"image_url\": \"https://example.com/image.jpg\",\n        \"created_at\": \"2024-03-28T16:54:40.278773Z\",\n        \"updated_at\": \"2024-03-28T16:54:40.278773Z\"\n    },\n    {\n        \"id\": 6,\n        \"name\": \"ganpatipule\",\n        \"country\": \"India\",\n        \"description\": \"famous temple\",\n        \"best_time_to_visit\": \"at morning time.\",\n        \"category\": \"Beach\",\n        \"image_url\": \"https://example.com/image.jpg\",\n        \"created_at\": \"2024-03-28T17:02:34.965249Z\",\n        \"updated_at\": \"2024-03-28T17:02:34.965249Z\"\n    },\n    {\n        \"id\": 7,\n        \"name\": \"ganpatipule\",\n        \"country\": \"India\",\n        \"description\": \"famous temple\",\n        \"best_time_to_visit\": \"at morning time.\",\n        \"category\": \"Beach\",\n        \"image_url\": \"https://example.com/image.jpg\",\n        \"created_at\": \"2024-03-28T17:04:15.820893Z\",\n        \"updated_at\": \"2024-03-28T17:04:15.820893Z\"\n    },\n    {\n        \"id\": 8,\n        \"name\": \"ganpatipule\",\n        \"country\": \"India\",\n        \"description\": \"famous ganapati temple\",\n        \"best_time_to_visit\": \"at morning time.\",\n        \"category\": \"Beach\",\n        \"image_url\": \"https://example.com/image.jpg\",\n        \"created_at\": \"2024-03-29T02:58:29.408387Z\",\n        \"updated_at\": \"2024-03-29T02:58:29.408387Z\"\n    },\n    {\n        \"id\": 9,\n        \"name\": \"ganpatipule\",\n        \"country\": \"India\",\n        \"description\": \"famous ganapati temple\",\n        \"best_time_to_visit\": \"at morning time.\",\n        \"category\": \"Beach\",\n        \"image_url\": \"https://example.com/image.jpg\",\n        \"created_at\": \"2024-03-29T03:15:45.962082Z\",\n        \"updated_at\": \"2024-03-29T03:15:45.962082Z\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/destinations/<int:pk>",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/destinations/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"destinations",
+						"5"
+					]
+				},
+				"description": "retrieve specific destination detail as a response"
+			},
+			"response": [
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/<int:pk>",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/5",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								"5"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/<int:pk>",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/6?Authorization=Token 795723abd93b95cbd19982d74c2616a0844735a4",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								"6"
+							],
+							"query": [
+								{
+									"key": "Authorization",
+									"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 29 Mar 2024 03:18:27 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.4"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "266"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 6,\n    \"name\": \"ganpatipule\",\n    \"country\": \"India\",\n    \"description\": \"famous temple\",\n    \"best_time_to_visit\": \"at morning time.\",\n    \"category\": \"Beach\",\n    \"image_url\": \"https://example.com/image.jpg\",\n    \"created_at\": \"2024-03-28T17:02:34.965249Z\",\n    \"updated_at\": \"2024-03-28T17:02:34.965249Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/destinations/update/<int:pk>",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n                \"name\": \"Lonavla\",\r\n                \"country\": \"India\",\r\n                \"description\": \"famous ganapati temple\",\r\n                \"best_time_to_visit\": \"at morning time.\",\r\n                \"category\": \"Beach\",\r\n                \"image_url\": \"https://example.com/image.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/destinations/update/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"destinations",
+						"update",
+						"5"
+					]
+				},
+				"description": "update information of Destination"
+			},
+			"response": [
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/update/<int:pk>",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n                \"name\": \"Lonavla\",\r\n                \"country\": \"India\",\r\n                \"description\": \"famous ganapati temple\",\r\n                \"best_time_to_visit\": \"at morning time.\",\r\n                \"category\": \"Beach\",\r\n                \"image_url\": \"https://example.com/image.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/update/5",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								"update",
+								"5"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/update/<int:pk>",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n                \"name\": \"Lonavla\",\r\n                \"country\": \"India\",\r\n                \"description\": \"famous ganapati temple\",\r\n                \"best_time_to_visit\": \"at morning time.\",\r\n                \"category\": \"Beach\",\r\n                \"image_url\": \"https://example.com/image.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/update/6?Authorization=Token 795723abd93b95cbd19982d74c2616a0844735a4",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								"update",
+								"6"
+							],
+							"query": [
+								{
+									"key": "Authorization",
+									"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 29 Mar 2024 03:19:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.4"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "PUT, PATCH, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "271"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 6,\n    \"name\": \"Lonavla\",\n    \"country\": \"India\",\n    \"description\": \"famous ganapati temple\",\n    \"best_time_to_visit\": \"at morning time.\",\n    \"category\": \"Beach\",\n    \"image_url\": \"https://example.com/image.jpg\",\n    \"created_at\": \"2024-03-28T17:02:34.965249Z\",\n    \"updated_at\": \"2024-03-29T03:19:45.749778Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/destinations/delete/<int:pk>",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/destinations/delete/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"destinations",
+						"delete",
+						"5"
+					]
+				},
+				"description": "Delete record from Destination"
+			},
+			"response": [
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/delete/<int:pk>",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/delete/5",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								"delete",
+								"5"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://127.0.0.1:8000/api/destinations/delete/<int:pk>",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token 795723abd93b95cbd19982d74c2616a0844735a4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/destinations/delete/6",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"destinations",
+								"delete",
+								"6"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 29 Mar 2024 03:20:43 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.4"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "DELETE, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
