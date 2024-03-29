@@ -57,7 +57,7 @@ class DestinationAPITestCase(APITestCase):
         '''Api test case for creating a Destination record'''
 
         url = reverse('destination-create')
-        data = {'name': 'New Destination', 'country': 'New Country', 
+        data = {'name': 'New Destination', 'country': 'Country', 
                 'description': 'New Description', 'best_time_to_visit': 'New Time', 
                 'category': 'City', 'image_url': 'http://example.com/image3.jpg'}
         
