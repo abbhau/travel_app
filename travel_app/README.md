@@ -19,6 +19,12 @@ How to Install and Run the Project:
 5) run the server by using command
    py manage.py runserver
 
+To run the unit and Api test run command
+    python manage.py test
+
+To check postman Api collection
+   Download the travel_app.postman_collection json file from destinations app and export it in postman app
+
     
 
   
